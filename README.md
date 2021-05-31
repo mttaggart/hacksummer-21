@@ -48,18 +48,24 @@ By the end of this course, you will be able to:
 * Write scripts to automate tasks
 * Secure systems against common vulnerabilities
 
-## Scenario
-
-You are the Systems Engineer on the _ESV Sagan_, Earth's first space exploration vessel. She and her crew are about to embark on a ten-year tour of the solar system. Because the technology supporting the ship and crew needs to be reliable, adaptable, and easy to maintain. That's why the combined space agencies of the globe chose Linux as the base operating system for the _Sagan_.
-
-From launch to a successful return, the challenge machine simulates tasks necessary during the mission. To help the crew perform their objectives and return safely home, you will have to configure and operate the Linux system onboard the _Sagan_.
-
 ## Course Structure:
 
 HackSummer 21 is arranged like a fairly traditional course, except streamed over Twitch and YouTube. Each day, we'll begin by reviewing the challenges from the previous lesson, going over any questions asked either in live chat or the Discord. Then, we'll cover new material with examples and demonstrations to prepare you for the next set of challenges.
 
 ## Challenge VM
 
-The _Sagan_ will be simulated by the challenge virtual machine, which will be provided for you to download. Each challenge will unlock the password to the next, aligned with the material covered during the lectures. 
+The Challenge VM is aligned with the material covered during the streams. The VM has several users, each with a separate password. Completing the quiz/challenge for each user unlocks the password for the next. 
 
-Each challenge will contain a `README.txt` detailing the challenges. There will also be a `test` script that checks that your solution achieved the desired state. Once the test passes, you will be given the password for the next challenge.
+The virtual appliance is configured to forward port 9000 from your host computer to 22 on the VM, allowing you to use SSH to access each user account in turn. Once the Challenge VM is downloaded and set up in Virtualbox, simply run this command to get started:
+
+`ssh cmd01@localhost -p 9000`
+
+The password for this user is `HS21{lets_begin}`
+
+### Quizzes
+
+Quizzes are simple knowledge checks to make sure you're absorbing the material. They often have simple answers or only require single commands to be run. A 100% on the quiz will unlock the next user password. Wrong answers will generate feedback to help answer the questions. Don't hesitate to ask for help on the Discord! We won't give answers, but there will always be help available.
+
+### Challenges
+
+Challenges involve practical applications of the knowledge covered during the streams. The objective will be to change the state of the VM in some way, whether modifying a config file, installing a package, or some combination of operations to achieve the objective. The challenge user will have a `test` executable in the user home directory that will check for expected state. If the state fails, feedback will be provided to help progress. If the tests pass, the next user password will be provided.
