@@ -12,6 +12,7 @@
 * Linux today
 * Distributions
 * We'll use Ubuntu
+* Installing on VirtualBox
 
 ## Session 1: The Command Line
 
