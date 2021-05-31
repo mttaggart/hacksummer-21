@@ -58,7 +58,7 @@ The Challenge VM is aligned with the material covered during the streams. The VM
 
 The virtual appliance is configured to forward port 9000 from your host computer to 22 on the VM, allowing you to use SSH to access each user account in turn. Once the Challenge VM is downloaded and set up in Virtualbox, simply run this command to get started:
 
-`ssh cmd01@localhost -p 9000`
+`ssh start0@localhost -p 9000`
 
 The password for this user is `HS21{lets_begin}`
 
