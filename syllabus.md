@@ -44,6 +44,7 @@
 * `>` and `>>`
 * File descriptors
 * `find` and `grep`
+* File hashes (`sha256sum` and `md5sum`)
 
 ### Installing Packages
 
@@ -78,16 +79,10 @@
 
 * IP Addresses
 * `ip`
+* Routes
 * Subnets
 * Gateways
 * `ping`
-
-### SSH
-
-* Connecting to remote systems
-* Providing access
-* SSH Keys
-* Securing SSH
 
 ### Clients and Servers
 
@@ -95,10 +90,11 @@
 * `nc`
 * Setting up a basic web server
 * `nginx`
+* Ports
 
 ## Session 4: Scripting
 
-### Bash scripts
+### Bash Scripts
 
 * Common shell interpreter
 * Automating basic tasks
