@@ -110,4 +110,5 @@
 ## Session 5: Containers
 
 * Force multiplier for your server
+* Container runtime options
 * Deploy applications with sandboxing
