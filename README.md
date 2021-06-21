@@ -68,4 +68,4 @@ Quizzes are simple knowledge checks to make sure you're absorbing the material. 
 
 ### Challenges
 
-Challenges involve practical applications of the knowledge covered during the streams. The objective will be to change the state of the VM in some way, whether modifying a config file, installing a package, or some combination of operations to achieve the objective. The challenge user will have a `test` executable in the user home directory that will check for expected state. If the state fails, feedback will be provided to help progress. If the tests pass, the next user password will be provided.
+Challenges involve practical applications of the knowledge covered during the streams. The objective will be to change the state of the VM in some way, whether modifying a config file, installing a package, or some combination of operations to achieve the objective. The challenge user will have a `README.txt` with instructions, and a `test` executable in the user home directory that will check for expected state. If the state fails, feedback will be provided to help progress. If the tests pass, the next user password will be provided.
