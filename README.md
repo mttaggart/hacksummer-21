@@ -1,5 +1,7 @@
 # HackSummer 21 Curriculum
 
+![hacksummer-bg](bg-small.png)
+
 ## Overview
 
 Welcome to the second year of #HackSummer! Just like the first iteration, the objective of HackSummer is provide free, interactive technology training for all curious minds. In 2020, we focused on the Python programming language. This year, we'll be putting on our sysadmin hats and diving into the Linux operating system. That might sound boring, but Linux is a powerful tool. Once mastered, it can become anything you want it to be. A hacker's weapon of choice? Sure. The basis of the next killer app? Absolutely. Even...
@@ -11,6 +13,10 @@ To master Linux is to understand fundamental concepts about how computers and ne
 ## Course Prerequisites
 
 Having used a computer before will be helpful, but there are no formal prerequisites for this course. 
+
+## Syllabus
+
+The entire course syllabus can be viewed [here](syllabus.md)
 
 ## Materials
 
@@ -56,11 +62,14 @@ HackSummer 21 is arranged like a fairly traditional course, except streamed over
 
 The Challenge VM is aligned with the material covered during the streams. The VM has several users, each with a separate password. Completing the quiz/challenge for each user unlocks the password for the next. 
 
-The virtual appliance is configured to forward port 9000 from your host computer to 22 on the VM, allowing you to use SSH to access each user account in turn. Once the Challenge VM is downloaded and set up in Virtualbox, simply run this command to get started:
+To build it, you'll start from an Ubuntu 20.04 Virtualbox, which we'll build together during the first session. Then, you install the files from [this repository](https://github.com/mttaggart/hs21-files). 
 
-`ssh start0@localhost -p 9000`
+Once the files are downloaded, run the following commands:
 
-The password for this user is `HS21{lets_begin}`
+1. `cd hs21-files`
+2. `sudo ./setup.sh`
+
+The password for the starting challenge user is `HS21{lets_begin}`. The rest of the passwords are unique to each instance, as they are generated during install.
 
 ### Quizzes
 
@@ -68,4 +77,4 @@ Quizzes are simple knowledge checks to make sure you're absorbing the material. 
 
 ### Challenges
 
-Challenges involve practical applications of the knowledge covered during the streams. The objective will be to change the state of the VM in some way, whether modifying a config file, installing a package, or some combination of operations to achieve the objective. The challenge user will have a `README.txt` with instructions, and a `test` executable in the user home directory that will check for expected state. If the state fails, feedback will be provided to help progress. If the tests pass, the next user password will be provided.
+Challenges involve practical applications of the knowledge covered during the streams. The objective will be to change the state of the VM in some way, whether modifying a config file, installing a package, or some combination of operations to achieve the objective. The challenge user will have a `README.txt` with instructions, and a `test` executable in the user home directory that will check for expected state, or other specific instructions as needed. If the state fails, feedback will be provided to help progress. If the tests pass, the next user password will be provided.
