@@ -10,6 +10,10 @@ The brain of a helicopter on Mars.
 
 To master Linux is to understand fundamental concepts about how computers and networks operate. Investing the time in learning how to set it up and manage it sets you miles ahead of the average technologist.
 
+## Schedule/Viewing
+
+This course will be presented as a week-long intensive. Livestreamed sessions will occur daily, starting on **Monday, July 19, 2021**, until **Saturday, July 26 2021**. Weekday streams will be at **5 PM Pacific**; the closing Saturday stream will be at **10 AM Pacific**. All sessions will be live on [Twitch](https://twitch.tv/mttaggart), and will be recorded for later viewing on [YouTube](https://youtube.com/taggarttech).
+
 ## Course Prerequisites
 
 Having used a computer before will be helpful, but there are no formal prerequisites for this course. 
