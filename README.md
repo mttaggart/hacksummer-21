@@ -14,6 +14,10 @@ To master Linux is to understand fundamental concepts about how computers and ne
 
 This course will be presented as a streamed course. Livestreamed sessions will occur weekly, starting on **Wednesday, July 7, 2021**, until **Wednesday, August 11 2021**. Weekday streams will be at **5 PM Pacific**. All sessions will be live on [Twitch](https://twitch.tv/mttaggart), and will be recorded for later viewing on [YouTube](https://youtube.com/taggarttech).
 
+## Discord
+
+Ongoing chat on the [Discord](https://discord.gg/yQef982H). Come join us!
+
 ## Course Prerequisites
 
 Having used a computer before will be helpful, but there are no formal prerequisites for this course. 
