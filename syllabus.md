@@ -26,11 +26,15 @@
 * `whoami`
 * `ls`
 * `cat`
+* `man`
 * Important linux files/folders
 * Everything is a file
 
 ### Files and Permissions
 
+* Users
+* `id`
+* /etc/passwd
 * Owners and groups
 * The root user
 * `sudo`
@@ -99,13 +103,6 @@
 * Common shell interpreter
 * Automating basic tasks
 * Syntax overview
-
-### Python 
-
-* Alternative scripting language
-* Ultra versatile
-* Common in all kinds of projects
-* Can interact with the shell
 
 ## Session 5: Containers
 
