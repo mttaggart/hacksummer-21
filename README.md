@@ -12,7 +12,7 @@ To master Linux is to understand fundamental concepts about how computers and ne
 
 ## Schedule/Viewing
 
-This course will be presented as a week-long intensive. Livestreamed sessions will occur daily, starting on **Monday, July 19, 2021**, until **Saturday, July 26 2021**. Weekday streams will be at **5 PM Pacific**; the closing Saturday stream will be at **10 AM Pacific**. All sessions will be live on [Twitch](https://twitch.tv/mttaggart), and will be recorded for later viewing on [YouTube](https://youtube.com/taggarttech).
+This course will be presented as a streamed course. Livestreamed sessions will occur weekly, starting on **Wednesday, July 7, 2021**, until **Wednesday, August 11 2021**. Weekday streams will be at **5 PM Pacific**. All sessions will be live on [Twitch](https://twitch.tv/mttaggart), and will be recorded for later viewing on [YouTube](https://youtube.com/taggarttech).
 
 ## Course Prerequisites
 
