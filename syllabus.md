@@ -64,18 +64,47 @@
 * Yes, it's hard
 * Worth it
 * Opening Vim
-* Navigating
 * Modes
+* Navigating
+    * `hjkl`
+    * `gg`/`G`
+    * `e/b`
+    * `$`/`^`
+    * `#gg`
+    * `{}`
+* Insert Mode
+* Saving/Opening/Quitting
+    * `:w`
+    * `:wq`
+    * `:x`
+    * `:e`
+    * `u/C-r` 
 * Entering commands
-* Searching
+    * `set nu`
+    * `:`
+    * `:h`
 * Getting help
-* Vim tricks
-* Copy/paste
+* Copy/Cut/Paste
+    * `y`/`yy`
+    * `d`/`dd`
+    * `x`/`#x`
+* Visual Mode
+    * Visual Block Mode
+    * Commands inside block mode   
+* Searching
+    * `/`
+    * `%s`
+    * `V :s`
+* Regular Expressions primer
 * Shell piping
-* Find/replace
 * Tabs/Windows
+    * `:tabnew`
+    * `:tabclose`
+    * `C-w-v/s` 
 * Vimrc
 * Vim Plugins
+    * VimPlug
+    * VimAwesome
 
 ## Session 3: Networking
 
